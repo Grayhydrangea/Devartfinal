@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bi bi-list {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+  }
+  
+  .bi bi-heart {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bi bi-cart {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bi bi-person {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bi-list,
+  .bi-heart,
+  .bi-cart,
+  .bi-person {
+      fill: black;
+  }
+  
+  a:hover {
+      color: black;
+  }
+  
+  .bi-heart,
+  .bi-cart,
+  .bi-person {
+      margin-right: 25px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .card {
+    border: 2px solid black !important;
+  }
+  
+  .card {
+    margin: 10px !important;
+  }

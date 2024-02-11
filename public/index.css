@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+}
+
+.devart-logo {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.categories {
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  color: white;
+}
