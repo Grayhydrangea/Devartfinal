@@ -20,10 +20,8 @@ app.use(express.static(publicDir))
 
 app.use('/bootstrap',express.static(__dirname + '/node_modules/bootstrap/dist'))
 
-app.use(express.urlencoded({extended:false}))
-app.use(express.json())
+app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({ extended: true }))
 
 app.set('view engine','hbs')
 
@@ -37,9 +35,6 @@ db.connect((err) => {
 
 app.use('/',require('./routes/page'))
 app.use('/auth',require('./routes/auth'))
-
-const routes = require('./routes/product')
-app.use('/', routes)
 
 app.listen(3000,() => {
     console.log('Server run 3000')
